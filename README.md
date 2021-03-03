@@ -1,4 +1,4 @@
-<img src="Design/CoverCaption.jpg" />
+<img src="Design/Cover.jpg" />
 
 # SimpleSidebar
 Two implementations of the macOS sidebar:
