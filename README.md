@@ -4,7 +4,9 @@
 Two implementations of the macOS sidebar:
 
 - **Cocoa** (OS X 10.10 and later)
-- **SwiftUI** (macOS 10.15 and later)
+- **SwiftUI** (macOS 11 and later)
+
+<img src="Design/Mockup.jpg" />
 
 Although SwiftUI has made it a breeze to implement, I've always found the process to be far more complex than it needs to be when working with Cocoa.
 
