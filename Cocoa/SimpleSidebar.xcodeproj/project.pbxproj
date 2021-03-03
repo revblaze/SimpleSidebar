@@ -11,6 +11,7 @@
 		C2B2EFE325EFDAAD00405DD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B2EFE225EFDAAD00405DD1 /* ViewController.swift */; };
 		C2B2EFE525EFDAAF00405DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B2EFE425EFDAAF00405DD1 /* Assets.xcassets */; };
 		C2B2EFE825EFDAAF00405DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B2EFE625EFDAAF00405DD1 /* Main.storyboard */; };
+		C2B2EFF525EFDCE800405DD1 /* SidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B2EFF425EFDCE800405DD1 /* SidebarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C2B2EFE725EFDAAF00405DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2B2EFE925EFDAAF00405DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2B2EFEA25EFDAAF00405DD1 /* SimpleSidebar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleSidebar.entitlements; sourceTree = "<group>"; };
+		C2B2EFF425EFDCE800405DD1 /* SidebarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				C2B2EFE025EFDAAD00405DD1 /* AppDelegate.swift */,
 				C2B2EFE225EFDAAD00405DD1 /* ViewController.swift */,
+				C2B2EFF425EFDCE800405DD1 /* SidebarViewController.swift */,
 				C2B2EFE425EFDAAF00405DD1 /* Assets.xcassets */,
 				C2B2EFE625EFDAAF00405DD1 /* Main.storyboard */,
 				C2B2EFE925EFDAAF00405DD1 /* Info.plist */,
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2B2EFE325EFDAAD00405DD1 /* ViewController.swift in Sources */,
+				C2B2EFF525EFDCE800405DD1 /* SidebarViewController.swift in Sources */,
 				C2B2EFE125EFDAAD00405DD1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
