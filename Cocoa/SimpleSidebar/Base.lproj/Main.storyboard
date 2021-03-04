@@ -685,7 +685,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="IQv-IB-iLA">
+                    <window key="window" title="Simple Sidebar" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" fullSizeContentView="YES"/>
                         <rect key="contentRect" x="196" y="240" width="900" height="600"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
@@ -749,7 +749,7 @@
         <!--Sidebar View Controller-->
         <scene sceneID="nK9-GR-dde">
             <objects>
-                <viewController id="cP1-2F-nnp" customClass="SidebarViewController" customModule="UWeb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cP1-2F-nnp" customClass="SidebarViewController" customModule="SimpleSidebar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="X3w-Nu-13q">
                         <rect key="frame" x="0.0" y="0.0" width="190" height="600"/>
                         <autoresizingMask key="autoresizingMask"/>
