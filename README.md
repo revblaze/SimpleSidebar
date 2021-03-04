@@ -63,8 +63,9 @@ The variant that was built with the average programmer in-mind.
 ```
 • Lacks section & row headers
 • Not very customizable
-• Menu items are inhereted
-• All follow the same structure (ie. title & icon)
+• Menu items are inherited
+• All follow the same structure
+  ie. title & icon
 ```
 
 </td></tr></table>
@@ -90,7 +91,7 @@ The variant that was built for designers who love Storyboards.
 • Same appearance across all versions of macOS
 • Mutable/customizable container view
 • Easy to modify, manipulate and animate
-  - ie. Toggle hide/show sidebar with fade effect
+  ie. Toggle hide/show sidebar with fade effect
 ```
         
 </td><td>
