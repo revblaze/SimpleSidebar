@@ -41,3 +41,8 @@ Thumbs.db
 node_modules
 dist
 .eslintcache
+
+# Design Templates
+Design/Cover.psd
+Design/Programmatic.psd
+#Design/Sidebar.xd
