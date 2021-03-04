@@ -12,6 +12,7 @@
 		C201389E25F11AC0000060CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C201389D25F11AC0000060CC /* Assets.xcassets */; };
 		C20138A125F11AC0000060CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C201389F25F11AC0000060CC /* Main.storyboard */; };
 		C20138AC25F11C61000060CC /* SidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20138AB25F11C61000060CC /* SidebarViewController.swift */; };
+		C20138B325F13A43000060CC /* SidebarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20138B225F13A43000060CC /* SidebarMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C20138A225F11AC0000060CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C20138A325F11AC0000060CC /* SimpleSidebar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleSidebar.entitlements; sourceTree = "<group>"; };
 		C20138AB25F11C61000060CC /* SidebarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewController.swift; sourceTree = "<group>"; };
+		C20138B225F13A43000060CC /* SidebarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,13 +59,22 @@
 			children = (
 				C201389925F11ABF000060CC /* AppDelegate.swift */,
 				C201389B25F11ABF000060CC /* ViewController.swift */,
-				C20138AB25F11C61000060CC /* SidebarViewController.swift */,
+				C20138B125F13A32000060CC /* Sidebar */,
 				C201389D25F11AC0000060CC /* Assets.xcassets */,
 				C201389F25F11AC0000060CC /* Main.storyboard */,
 				C20138A225F11AC0000060CC /* Info.plist */,
 				C20138A325F11AC0000060CC /* SimpleSidebar.entitlements */,
 			);
 			path = SimpleSidebar;
+			sourceTree = "<group>";
+		};
+		C20138B125F13A32000060CC /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				C20138B225F13A43000060CC /* SidebarMenu.swift */,
+				C20138AB25F11C61000060CC /* SidebarViewController.swift */,
+			);
+			path = Sidebar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 				C201389C25F11ABF000060CC /* ViewController.swift in Sources */,
 				C20138AC25F11C61000060CC /* SidebarViewController.swift in Sources */,
 				C201389A25F11ABF000060CC /* AppDelegate.swift in Sources */,
+				C20138B325F13A43000060CC /* SidebarMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.justinbush.SimpleSidebar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -308,7 +320,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.justinbush.SimpleSidebar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
