@@ -2,7 +2,7 @@
 
 The SwiftUI sidebar implementation is courtesy of [1998code](https://github.com/1998code/SwiftUI2-MacSidebar). Go show them some love!
 
-# SimpleSidebar
+# Overview
 Provided in this project are three different implementations of the macOS sidebar:
 
 <table><tr>
@@ -13,8 +13,8 @@ Provided in this project are three different implementations of the macOS sideba
   
 **Cocoa**
 
-- **Variant #1:** Built for Programmers `(NSOutlineView)`
-- **Variant #2:** Built for Designers `(Storyboards)`
+- **Variant 1:** Built for Programmers `(NSOutlineView)`
+- **Variant 2:** Built for Designers `(Storyboards)`
         
 </td><td>
 
@@ -100,8 +100,8 @@ The variant that was built for designers who love Storyboards.
 • Heavily relies on Storyboards
 • Uses AutoLayout + Constraints
 • Experience with design software – ie.
-  Photoshop/XD – for the ultimate customization
-  experience
+  Photoshop/XD – for the ultimate
+  customization experience
 ```
 
 </td></tr></table>
@@ -119,4 +119,11 @@ Although SwiftUI has made it a breeze to implement, I've always found the proces
 
 Since I'm constantly developing newer applications with SwiftUI – yet also maintaining older projects that require maximum OS compatibility – I thought it would be useful to have a resource that portrays both implementations.
 
-
+## MIT License
+> Copyright 2021 © Justin Bush
+> 
+> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+> 
+> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+> 
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
