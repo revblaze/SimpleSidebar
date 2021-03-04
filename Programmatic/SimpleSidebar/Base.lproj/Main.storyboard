@@ -731,15 +731,15 @@
         <scene sceneID="Ava-CY-BKV">
             <objects>
                 <viewController id="M0F-dQ-ltm" customClass="SidebarViewController" customModule="SimpleSidebar" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="wdy-SJ-jUe">
-                        <rect key="frame" x="0.0" y="0.0" width="190" height="581"/>
+                    <view key="view" misplaced="YES" id="wdy-SJ-jUe">
+                        <rect key="frame" x="0.0" y="0.0" width="190" height="580"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                         <subviews>
                             <visualEffectView blendingMode="behindWindow" material="sidebar" state="followsWindowActiveState" translatesAutoresizingMaskIntoConstraints="NO" id="29b-fm-Yeg">
-                                <rect key="frame" x="0.0" y="0.0" width="190" height="581"/>
+                                <rect key="frame" x="0.0" y="0.0" width="190" height="579"/>
                             </visualEffectView>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gn7-tf-2kf">
-                                <rect key="frame" x="12" y="481" width="60" height="60"/>
+                                <rect key="frame" x="12" y="479" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="ccO-vZ-CW8"/>
                                     <constraint firstAttribute="height" constant="60" id="zJS-Xc-2hw"/>
@@ -747,13 +747,13 @@
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Sidebar-Header-Icon" id="Gi0-Cc-fvl"/>
                             </imageView>
                             <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="40" horizontalPageScroll="10" verticalLineScroll="40" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gfv-q7-BY1">
-                                <rect key="frame" x="0.0" y="0.0" width="190" height="469"/>
+                                <rect key="frame" x="0.0" y="0.0" width="190" height="467"/>
                                 <clipView key="contentView" drawsBackground="NO" id="iVD-fK-KwZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="190" height="469"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="190" height="467"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="sourceList" multipleSelection="NO" autosaveColumns="NO" rowHeight="40" rowSizeStyle="automatic" viewBased="YES" indentationPerLevel="14" outlineTableColumn="bHy-fh-cYn" id="kmy-QH-Ey8">
-                                            <rect key="frame" x="0.0" y="0.0" width="190" height="469"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="190" height="467"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <size key="intercellSpacing" width="3" height="0.0"/>
                                             <color key="backgroundColor" red="0.0" green="0.41176470590000003" blue="0.85098039219999999" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -776,9 +776,9 @@
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="QHP-cy-j5C">
-                                                                    <rect key="frame" x="33" y="12" width="101" height="16"/>
+                                                                    <rect key="frame" x="33" y="11" width="101" height="19"/>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Discover" drawsBackground="YES" id="C05-3u-HwX">
-                                                                        <font key="font" metaFont="system"/>
+                                                                        <font key="font" metaFont="system" size="16"/>
                                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                         <color key="backgroundColor" white="1" alpha="0.0" colorSpace="deviceWhite"/>
                                                                     </textFieldCell>
