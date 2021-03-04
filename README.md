@@ -1,4 +1,4 @@
-<img src="Design/Cover.jpg" />
+<img src="Design/Header.jpg" />
 
 The SwiftUI sidebar implementation is courtesy of [1998code](https://github.com/1998code/SwiftUI2-MacSidebar). Go show them some love!
 
@@ -41,7 +41,7 @@ As much as I love SwiftUI, this project is more of a POC that Cocoa is still rel
 
 The variant that was built with the average programmer in-mind.
 
-<img src="Design/MacAppStore.jpg" />
+<img src="Design/GuidelineComparison.jpg" />
 
 <table><tr>
   <th>Pros</th>
