@@ -1,6 +1,6 @@
 <img src="Design/Header.jpg" />
 
-The SwiftUI sidebar implementation is courtesy of [1998code](https://github.com/1998code/SwiftUI2-MacSidebar). Go show them some love!
+The SwiftUI sidebar implementation—used for comparison purposes—is courtesy of [1998code](https://github.com/1998code/SwiftUI2-MacSidebar). Go show them some love!
 
 # Overview
 Provided in this project are three different implementations of the macOS sidebar:
@@ -112,12 +112,6 @@ Great for maximum customization. Maintains the same style and appearance, regard
 <img src="Design/Demo.gif" />
 
 ----
-
-I do intend on making a Swift package with zero external assets required – aside from the menu icons – and would love some help getting started!
-
-Although SwiftUI has made it a breeze to implement, I've always found the process to be far more complex than it needs to be when working with Cocoa.
-
-Since I'm constantly developing newer applications with SwiftUI – yet also maintaining older projects that require maximum OS compatibility – I thought it would be useful to have a resource that portrays both implementations.
 
 ## MIT License
 > Copyright 2021 © Justin Bush
